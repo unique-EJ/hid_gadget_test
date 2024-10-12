@@ -1,7 +1,17 @@
 
-##		     Linux USB HID gadget driver
+##		     Linux USB HID Gadget driver
 
-[![Build Status](https://travis-ci.org/aagallag/hid_gadget_test.svg?branch=master)](https://travis-ci.org/aagallag/hid_gadget_test)
+[![Build Status](https://travis-ci.org/aagallag/hid_gadget_test.svg?branch=master)](https://travis-ci.org/aagallag/hid_gadget_test) 
+[Source Doc](https://www.kernel.org/doc/Documentation/usb/gadget_hid.txt)
+
+To download hid_gadget_test, the interactive program to test HID Gadget driver devices, use:
+
+```
+{ git clone https://github.com/aagallag/hid_gadget_test.git && cd hid_gadget_test }; make
+```
+
+and use the hid-gadget-test executable program (with writable permissions on gadgets in '/dev/').
+
 
 ### Introduction
 
@@ -456,5 +466,3 @@ int main(int argc, const char *argv[])
 }
 ```
 
-### Source
-https://www.kernel.org/doc/Documentation/usb/gadget_hid.txt
