@@ -7,7 +7,7 @@
 To download `hid_gadget_test`, the interactive program to test HID Gadget driver devices, use:
 
 ```
-{ git clone https://github.com/aagallag/hid_gadget_test.git && cd hid_gadget_test }; make
+{ git clone https://github.com/aagallag/hid_gadget_test.git && cd hid_gadget_test && make; }
 ```
 
 and use the `hid_gadget_test` executable program (with writable permissions on gadgets in '`/`dev`/`').
